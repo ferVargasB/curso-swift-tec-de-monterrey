@@ -1,10 +1,4 @@
-//
-//  MasterViewController.swift
-//  pruebaGitHub
-//
-//  Created by Fernando Vargas on 09/07/16.
-//  Copyright © 2016 Fernando Vargas. All rights reserved.
-//
+
 
 import UIKit
 
@@ -16,7 +10,7 @@ class MasterViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
         self.navigationItem.leftBarButtonItem = self.editButtonItem()
 
         let addButton = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: #selector(insertNewObject(_:)))
